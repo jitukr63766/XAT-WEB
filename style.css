@@ -1,0 +1,114 @@
+h1{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    background-color: black;
+    border-radius: 6px;
+    height: 16px;
+    width: 120px;
+margin: auto;
+    justify-content: center;
+    box-shadow: 1px 1px 2px grey;
+}
+.logo img{
+    width: 220px;
+    height: 70px;
+    
+}
+ul{
+    background-color: black;
+}
+
+#heading{
+    color: white;
+    display: flex;
+    
+}
+#heading li{
+    margin-right: 30px;
+    color: white;
+
+}
+.live a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.live{
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+li a{
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.live2{
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.live3{
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+    color: yellow;
+}
+
+.live{
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.live2 a{
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.live3 a{
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+    color: yellow;
+}
+.iii img {
+    /* display: flex; */
+    height: 150px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 2.5em;
+    grid-template-rows: repeat(auto-fit, 5, 2fr);
+}
+section img{
+    width: 163px;
+    height: 90px;
+    border: 1.5px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px grey;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/18840507/pexels-photo-18840507/free-photo-of-vasco-da-gama-bridge-at-sunset.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px grey;
+
+}

@@ -1,0 +1,98 @@
+  @import url('https://fonts.googleapis.com/css2?family=Carattere&family=Kenia&family=Luckiest+Guy&family=Mooli&family=Noto+Sans+Pau+Cin+Hau&family=Poppins:wght@500&family=Roboto+Condensed&family=Roboto:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+  }
+
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100px;
+      background-image: url(https://images.pexels.com/photos/18840507/pexels-photo-18840507/free-photo-of-vasco-da-gama-bridge-at-sunset.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+
+  }
+
+  .wrapper {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+      width: 400px;
+      height: 400px;
+      /* background-color: white; */
+      
+      /* background-blend-mode: multiply; */
+      border-radius: 20px;
+      border: 3px solid black;
+      box-shadow: 3px 3px 3px rgb(49, 48, 48);
+
+  }
+
+  .wrapper h1 {
+    text-align: center;
+    margin-top: 30px;
+    
+    
+  }
+
+  .wrapper .input-box {
+    width: 198px;
+    height: 28px;
+    border-radius: 10px;
+    /* background-color: aqua; */
+    margin: 40px;
+    align-items: center;
+    margin: 25px;
+    margin-left: 100px;
+    
+}
+.wrapper .remember-me{
+    text-align: center;
+}
+.wrapper .btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.wrapper .btn a{
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.wrapper .register-link{
+    text-align: center;
+}
+
+.input-box input{
+ color: black;
+ border-radius: 10px;
+ text-align: center;
+}
+
+.input-box{
+    color: black;
+}
+
+.btn button{
+    margin: 50px;
+}
+.register-link a{
+    color: blue;
+}
+  
